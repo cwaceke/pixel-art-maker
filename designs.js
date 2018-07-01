@@ -23,7 +23,7 @@ function makeGrid(x,y) {
   for (var i=1; i<=x; i++){
     $('#pixelCanvas').append('<tr id = row '+i+'></tr>');
     
-    for(var j=1; j<y;j++){
+    for(var j=1; j<=y;j++){
       $('#row'+i).append('<td></td>');
     } 
   }
